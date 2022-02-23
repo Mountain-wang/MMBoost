@@ -5,7 +5,8 @@ The source code for "Majority-to-Minority Resampling for Boosting-based Classifi
 Classification is a classical research field due to its broad applications in data mining such as event extraction, spam detection, and medical treatment. However, class imbalance is an unavoidable problem in many real-world applications. It is challenging for conventional learning algorithms to deal with imbalanced datasets, since they tend to be biased towards the majority class, while the minority class is crucial as well. Many previous studies have been explored to solve class imbalance, such as data sampling and class switching. In this paper, we propose a hybrid strategy named Majority-to-Minority Resampling (MMR) to select switched instances, which adaptively samples potential instances from the majority class to augment the minority class. To reduce the loss of information after sampling, we also propose a Majority-to-Minority Boosting (MMBoost) algorithm for classification by dynamically adjusting weights of the sampled instances. We conduct extensive experiments using real-world datasets. Experimental results demonstrate that the proposed framework achieves competitive performance for dealing with imbalanced data compared to several strong baselines across different common metrics.
 
 # Architecture
-this is the flow of our method
+this is the flow of our method  
+![MMR+MMB](https://github.com/Mountain-wang/MMBoost/blob/main/Fig4.pdf)
 # Requirements
 you can run it in any Python environment easily.
 ## Main packages
