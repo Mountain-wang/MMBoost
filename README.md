@@ -20,7 +20,7 @@ you can run it in any Python environment easily.
 2. Create a directory for this repository  
 3. Save it in this directory  
 4. You can run it on two ways:  
-    - Run it in cmd, and follow the interactive guide . 'python mmbAPI.py'
+    - Run it in cmd, and follow the interactive guide . 'python main.py'
     - Run it with your IDEA, and you can feel the source code clearly
     
 # Dateset
